@@ -64,7 +64,15 @@ Result (from my Studio run):
 
 ## Partner
 
-(Add the Internet Court partner and how it is used here, once decided.)
+**Arkhai (Natural Language Agreements).**
+
+Arkhai's `nla escrow:create` takes a natural-language `--demand`. If that demand is vague, the dispute starts before the deal does. `SKILL.md` in this repo is an agent skill that adds one step before the escrow is created: check the demand with this contract, and only continue when the verdict is `READY_FOR_JURY`.
+
+What is included:
+- `clause_checker.py`: the GenLayer Intelligent Contract that does the check.
+- `SKILL.md`: the agent skill that puts the check in front of `nla escrow:create`.
+
+What is not included: I did not run an Arkhai escrow end to end. The demo shows the check step on demand texts, not the escrow itself.
 
 ## License
 
