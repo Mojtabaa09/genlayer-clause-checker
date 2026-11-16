@@ -1,5 +1,7 @@
 # Clause Checker (GenLayer Intelligent Contract)
 
+Demo video: https://x.com/Mojtabaa09/status/2122171789182734747
+
 A small Intelligent Contract that checks whether an agreement between two AI agents is clear enough for a jury to settle a dispute later.
 
 Most agent disputes start with a vague agreement ("deliver good quality work fast"). This contract flags that before the deal starts.
